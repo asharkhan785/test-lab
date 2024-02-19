@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none !important;
+}
+
+.logo img{
+    height:60px;
+}
+.bbtn{
+    border: 2px white solid !important;
+}
+/* row 2 / line 2 */
+.row2{
+    height: 110vh;
+    background-color: black;
+    display: grid !important;
+    position: relative;
+}
+.row2l1{
+    margin-top: 100px;
+    text-align: center;
+}
+.row2l2{
+    display: grid;
+    position: absolute;
+    margin-right: ;
+}
+footer{
+    background: #ff0000;
+    padding-top: 50px;
+    background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/03/Huge-Backgrounds-63.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background
+}
+.container-footer{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 33.3%;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer-content p{
+    width:190px;
+    margin: auto;
+    padding: 7px;
+    color: #ff0000;
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative; 
+    
+}
+/* li anker hover */
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background-color: black;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: white;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #f18930;
+}
+/* icon hover */
+.social-icons i:hover{
+    color: black;
+}
+.bottom-bar{
+    background: #f18930;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.bottom-bar p{
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
+.l1r1{
+    border:#ff0000 solid 2px;
+    height: 50%;
+    width: 35%;
+    margin-left: 10%;
+    background-color: #ff0000;
+    margin-top:5%;
+}
+.btn-nav-bar-r{
+    border-radius: 50px !important;
+}
